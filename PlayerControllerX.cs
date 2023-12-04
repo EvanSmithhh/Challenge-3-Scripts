@@ -9,7 +9,7 @@ public class PlayerControllerX : MonoBehaviour
     public float floatForce;
     private float gravityModifier = 1.5f;
     private Rigidbody playerRb;
-    private float topBound = 20.0f;
+    private float topBound = 17.0f;
     private float highestFloatPoint = 14.0f;
     private float reboundForce = 10.0f;
     public ParticleSystem explosionParticle;
